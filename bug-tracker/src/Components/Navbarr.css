@@ -1,0 +1,12 @@
+#Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: teal;
+    height: 70px;
+}
+#Navbar>a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}

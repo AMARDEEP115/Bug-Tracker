@@ -1,0 +1,12 @@
+#Critical_Severity>div{
+    background-color: red;
+}
+#Major_Severity>div{
+    background-color: orange;
+}
+#Medium_Severity>div{
+    background-color: rgb(18, 126, 241);
+}
+#Low_Severity>div{
+    background-color: rgb(54, 231, 54);
+}

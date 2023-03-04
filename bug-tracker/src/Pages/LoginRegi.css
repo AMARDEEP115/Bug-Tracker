@@ -1,0 +1,30 @@
+#forM{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50vh;
+    margin: auto;
+    padding: 25px;
+    margin-top: 20vh;
+}
+#fORM{
+    text-align: left;
+}
+#fORM>h2{
+    margin-top: 25px;
+}
+#fORM>input{
+    margin-top: 25px;
+}
+#fORM>button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#forM>p{
+    margin-top: 25px;
+}
+
+#navI{
+    color: blue;
+}
