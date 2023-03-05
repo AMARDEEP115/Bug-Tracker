@@ -3,10 +3,23 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: teal;
-    height: 70px;
+    flex-wrap: wrap;
+    /* height: 50%; */
 }
 #Navbar>a{
-    font-size: 2rem;
+    font-size: 4.2vh;
     font-weight: bold;
     color: white;
+    width: 210px;
+}
+
+#Navbar>a:hover{
+    color: tomato;
+}
+#Navbar>button{
+    background-color: transparent;
+    font-size: 4.2vh;
+}
+#Navbar>button:hover{
+    color: tomato;
 }

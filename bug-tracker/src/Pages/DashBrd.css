@@ -1,3 +1,15 @@
+#Critical_Severity{
+    background-color: rgb(241, 247, 211);
+}
+#Major_Severity{
+    background-color: rgb(241, 247, 211);
+}
+#Medium_Severity{
+    background-color: rgb(241, 247, 211);
+}
+#Low_Severity{
+    background-color: rgb(241, 247, 211);
+}
 #Critical_Severity>div{
     background-color: red;
 }
@@ -9,4 +21,73 @@
 }
 #Low_Severity>div{
     background-color: rgb(54, 231, 54);
+}
+#bug-lists{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+#bug-lists>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid rgb(84, 201, 201);
+    border-radius:10px;
+    height: fit-content;
+    width: 350px;
+    margin-top: 20px;
+}
+#bug-lists>div>div{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bug-lists>div>div>p{
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 600;
+    margin-left: 15%;
+}
+#bug-lists>div>div>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+
+#Critical_SeveritydragCritical_Severity>div{
+    background-color: red;
+}
+#Major_SeveritydragMajor_Severity>div{
+    background-color: orange;
+}
+#Medium_SeveritydragMedium_Severity>div{
+    background-color: rgb(18, 126, 241);
+}
+#Low_SeveritydragLow_Severity>div{
+    background-color: rgb(54, 231, 54);
+}
+
+
+#Critical_SeveritydragCritical_Severity{
+    background-color: rgb(235, 255, 136);
+}
+#Major_SeveritydragMajor_Severity{
+    background-color: rgb(235, 255, 136);
+}
+#Medium_SeveritydragMedium_Severity{
+    background-color: rgb(235, 255, 136);
+}
+#Low_SeveritydragLow_Severity{
+    background-color: rgb(235, 255, 136);
 }

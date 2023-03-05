@@ -3,7 +3,7 @@ import * as auth from "./actionTypes";
 const initialState={
     isLoading:false,
     token:"",
-    auth:false,
+    auth:true,
     isFailure:false
 };
 
